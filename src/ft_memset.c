@@ -7,7 +7,7 @@ void	*ft_memset(void *d, int c, unsigned int n)
 	ptr = (char*)(d);
 	while (n > 0)
 	{
-		*ptr = (char)(n);
+		*ptr = (char)(c);
 		n--;
 		ptr++;
 	}

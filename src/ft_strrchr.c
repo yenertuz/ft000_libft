@@ -1,9 +1,15 @@
 #include "libft.h"
 
-char	*ft_strchr(const char *s, int c)
+char	*ft_strrchr(const char *s, int c)
 {
-	char	*r;
+	unsigned int	n;
 
-	r = (char*)(ft_memchr((const void *)(s), c, ft_strlen(s));
-	return (r);
+	n = ft_strlen(s);
+	while (n > 0)
+	{
+		if (s[n - 1] == c)
+			return ((char*)s + n - 1);
+		n--;
+	}
+	return (0);
 }

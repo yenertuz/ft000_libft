@@ -2,5 +2,5 @@
 
 void	ft_strdel(char **a)
 {
-	ft_memdel((char**)(a));
+	ft_memdel((void**)(a));
 }

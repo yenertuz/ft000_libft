@@ -7,7 +7,7 @@ t_list	*ft_lstmap(t_list *s, t_list* (*f)(t_list *e))
 	r = 0;
 	while (s)
 	{
-		ft_lstadd(&r, f(lst));
+		ft_lstadd(&r, f(s));
 		s = s->next;
 	}
 	return (r);

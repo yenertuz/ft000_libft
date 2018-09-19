@@ -24,17 +24,17 @@ static unsigned int	count_words(char const *s, char c)
 
 static char			*get_word(const char **s, char c)
 {
-	char			*ptr;
+	const char		*ptr;
 	char			*r;
 	unsigned int	n;
 
-	while (**s && *s == c)
+	while (**s && **s == c)
 		(*s)++;
 	ptr = *s;
 	while (*ptr && *ptr != c)
 		ptr++;
 	n = ptr - *s;
-	r = ft_strsub(s, 0, n);
+	r = ft_strsub(*s, 0, n);
 	*s = ptr;
 	return (r);
 }

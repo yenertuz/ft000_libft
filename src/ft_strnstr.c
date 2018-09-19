@@ -10,7 +10,7 @@ char	*ft_strnstr(const char *h, const char *n, unsigned int l)
 	while (*h && h < ptr)
 	{
 		if (ft_memcmp((const void*)(h), (const void*)(n), l2 + 1))
-			return (h);
+			return (ft_strsub(h, 0, l2));
 		h++;
 	}
 	return (0);

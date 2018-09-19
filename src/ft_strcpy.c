@@ -1,6 +1,6 @@
 #include "libft.h"
 
-char	ft_strcpy(char *d, const char *s)
+char	*ft_strcpy(char *d, const char *s)
 {
 	unsigned int	n;
 
