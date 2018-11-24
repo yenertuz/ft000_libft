@@ -2,14 +2,19 @@
 
 ##### Header
 
-__Author:__ Yener Tuz
-__Creation date__: 9/15/2018
+__Author:__ Yener Tuz  
+__Creation date__: 9/15/2018  
 
 * A 42USA project
 
 ##### Intro
 
-Recoded a portion of the standard C library
+Rewriting a portion of the standard C library
+
+##### Requirements
+
+gcc, sh, a terminal, `<unist.d>`, `<stdlib.h>`, `<string.h>`  
 
 ##### Usage
 
+* Run `run.sh` by entering `sh run.sh` in the command prompt
