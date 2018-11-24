@@ -17,4 +17,7 @@ gcc, sh, a terminal, `<unist.d>`, `<stdlib.h>`, `<string.h>`
 
 ##### Usage
 
-* Run `run.sh` by entering `sh run.sh` in the command prompt
+* Run `run.sh` by entering `sh run.sh` in the command prompt  
+  
+* To link the library into another project:
+  1
