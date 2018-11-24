@@ -19,5 +19,7 @@ gcc, sh, a terminal, `<unist.d>`, `<stdlib.h>`, `<string.h>`
 
 * Run `run.sh` by entering `sh run.sh` in the command prompt  
   
-* To link the library into another project:
-  1
+* To link the library into another project:  
+	1. clone this repository into your project `git clone https://github.com/yenertuz/mini_lib_c  libft`  
+	2. `sh run.sh` to get the `libft.a` file  
+	3. while compiling your project, link this library: `gcc -Ilibft/inc/ -Llibft -lft *.c`  
